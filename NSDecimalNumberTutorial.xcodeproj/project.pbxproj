@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81F08B4A147EF3EA00D6C561 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F08B49147EF3EA00D6C561 /* Foundation.framework */; };
+		81F08B4D147EF3EA00D6C561 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F08B4C147EF3EA00D6C561 /* main.m */; };
+		81F08B51147EF3EA00D6C561 /* NSDecimalNumberTutorial.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 81F08B50147EF3EA00D6C561 /* NSDecimalNumberTutorial.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		81F08B43147EF3EA00D6C561 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				81F08B51147EF3EA00D6C561 /* NSDecimalNumberTutorial.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		81F08B45147EF3EA00D6C561 /* NSDecimalNumberTutorial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSDecimalNumberTutorial; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F08B49147EF3EA00D6C561 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		81F08B4C147EF3EA00D6C561 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81F08B4F147EF3EA00D6C561 /* NSDecimalNumberTutorial-Prefix.pch */ = {isa = PBXFileReference; path = "NSDecimalNumberTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		81F08B50147EF3EA00D6C561 /* NSDecimalNumberTutorial.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NSDecimalNumberTutorial.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81F08B42147EF3EA00D6C561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F08B4A147EF3EA00D6C561 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81F08B3A147EF3EA00D6C561 = {
+			isa = PBXGroup;
+			children = (
+				81F08B4B147EF3EA00D6C561 /* NSDecimalNumberTutorial */,
+				81F08B48147EF3EA00D6C561 /* Frameworks */,
+				81F08B46147EF3EA00D6C561 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81F08B46147EF3EA00D6C561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81F08B45147EF3EA00D6C561 /* NSDecimalNumberTutorial */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81F08B48147EF3EA00D6C561 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81F08B49147EF3EA00D6C561 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81F08B4B147EF3EA00D6C561 /* NSDecimalNumberTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				81F08B4C147EF3EA00D6C561 /* main.m */,
+				81F08B50147EF3EA00D6C561 /* NSDecimalNumberTutorial.1 */,
+				81F08B4E147EF3EA00D6C561 /* Supporting Files */,
+			);
+			path = NSDecimalNumberTutorial;
+			sourceTree = "<group>";
+		};
+		81F08B4E147EF3EA00D6C561 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81F08B4F147EF3EA00D6C561 /* NSDecimalNumberTutorial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81F08B44147EF3EA00D6C561 /* NSDecimalNumberTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81F08B54147EF3EA00D6C561 /* Build configuration list for PBXNativeTarget "NSDecimalNumberTutorial" */;
+			buildPhases = (
+				81F08B41147EF3EA00D6C561 /* Sources */,
+				81F08B42147EF3EA00D6C561 /* Frameworks */,
+				81F08B43147EF3EA00D6C561 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSDecimalNumberTutorial;
+			productName = NSDecimalNumberTutorial;
+			productReference = 81F08B45147EF3EA00D6C561 /* NSDecimalNumberTutorial */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81F08B3C147EF3EA00D6C561 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 81F08B3F147EF3EA00D6C561 /* Build configuration list for PBXProject "NSDecimalNumberTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 81F08B3A147EF3EA00D6C561;
+			productRefGroup = 81F08B46147EF3EA00D6C561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81F08B44147EF3EA00D6C561 /* NSDecimalNumberTutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81F08B41147EF3EA00D6C561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F08B4D147EF3EA00D6C561 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		81F08B52147EF3EA00D6C561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		81F08B53147EF3EA00D6C561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		81F08B55147EF3EA00D6C561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDecimalNumberTutorial/NSDecimalNumberTutorial-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81F08B56147EF3EA00D6C561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDecimalNumberTutorial/NSDecimalNumberTutorial-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81F08B3F147EF3EA00D6C561 /* Build configuration list for PBXProject "NSDecimalNumberTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81F08B52147EF3EA00D6C561 /* Debug */,
+				81F08B53147EF3EA00D6C561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81F08B54147EF3EA00D6C561 /* Build configuration list for PBXNativeTarget "NSDecimalNumberTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81F08B55147EF3EA00D6C561 /* Debug */,
+				81F08B56147EF3EA00D6C561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81F08B3C147EF3EA00D6C561 /* Project object */;
+}
