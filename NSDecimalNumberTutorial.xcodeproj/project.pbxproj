@@ -29,7 +29,7 @@
 		81F08B45147EF3EA00D6C561 /* NSDecimalNumberTutorial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSDecimalNumberTutorial; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F08B49147EF3EA00D6C561 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		81F08B4C147EF3EA00D6C561 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		81F08B4F147EF3EA00D6C561 /* NSDecimalNumberTutorial-Prefix.pch */ = {isa = PBXFileReference; path = "NSDecimalNumberTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		81F08B4F147EF3EA00D6C561 /* NSDecimalNumberTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDecimalNumberTutorial-Prefix.pch"; sourceTree = "<group>"; };
 		81F08B50147EF3EA00D6C561 /* NSDecimalNumberTutorial.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NSDecimalNumberTutorial.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
